@@ -1,0 +1,146 @@
+<!-- Header-->
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">Your cart</h1>
+            <p class="lead fw-normal text-white-50 mb-0">Review your items before checkout</p>
+        </div>
+    </div>
+</header>
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5">
+            <!-- Cart items-->
+            <div class="col-12 col-lg-8 mb-5">
+                <!-- Cart item-->
+                <div class="card mb-4">
+                    <div class="row g-0 align-items-center">
+                        <!-- Product image-->
+                        <div class="col-4 col-md-3 p-3">
+                            <img class="img-fluid rounded" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                        </div>
+                        <div class="col-8 col-md-9">
+                            <div class="card-body p-4">
+                                <div class="row gy-3 align-items-center">
+                                    <!-- Product name and price-->
+                                    <div class="col-12 col-md-5">
+                                        <h5 class="fw-bolder">Special Item</h5>
+                                        <span class="text-muted text-decoration-line-through">$20.00</span>
+                                        $18.00
+                                    </div>
+                                    <!-- Product quantity-->
+                                    <div class="col-12 col-sm-6 col-md-4">
+                                        <label class="form-label small text-muted mb-1" for="cart-quantity-1">Quantity</label>
+                                        <input class="form-control" id="cart-quantity-1" type="number" min="1" value="1" />
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="col-12 col-sm-6 col-md-3 text-md-end">
+                                        <button class="btn btn-outline-dark" type="button"><i class="bi-trash me-1"></i>Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cart item-->
+                <div class="card mb-4">
+                    <div class="row g-0 align-items-center">
+                        <!-- Product image-->
+                        <div class="col-4 col-md-3 p-3">
+                            <img class="img-fluid rounded" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                        </div>
+                        <div class="col-8 col-md-9">
+                            <div class="card-body p-4">
+                                <div class="row gy-3 align-items-center">
+                                    <!-- Product name and price-->
+                                    <div class="col-12 col-md-5">
+                                        <h5 class="fw-bolder">Sale Item</h5>
+                                        <span class="text-muted text-decoration-line-through">$50.00</span>
+                                        $25.00
+                                    </div>
+                                    <!-- Product quantity-->
+                                    <div class="col-12 col-sm-6 col-md-4">
+                                        <label class="form-label small text-muted mb-1" for="cart-quantity-2">Quantity</label>
+                                        <input class="form-control" id="cart-quantity-2" type="number" min="1" value="2" />
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="col-12 col-sm-6 col-md-3 text-md-end">
+                                        <button class="btn btn-outline-dark" type="button"><i class="bi-trash me-1"></i>Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cart item-->
+                <div class="card">
+                    <div class="row g-0 align-items-center">
+                        <!-- Product image-->
+                        <div class="col-4 col-md-3 p-3">
+                            <img class="img-fluid rounded" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                        </div>
+                        <div class="col-8 col-md-9">
+                            <div class="card-body p-4">
+                                <div class="row gy-3 align-items-center">
+                                    <!-- Product name and price-->
+                                    <div class="col-12 col-md-5">
+                                        <h5 class="fw-bolder">Popular Item</h5>
+                                        $40.00
+                                    </div>
+                                    <!-- Product quantity-->
+                                    <div class="col-12 col-sm-6 col-md-4">
+                                        <label class="form-label small text-muted mb-1" for="cart-quantity-3">Quantity</label>
+                                        <input class="form-control" id="cart-quantity-3" type="number" min="1" value="1" />
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="col-12 col-sm-6 col-md-3 text-md-end">
+                                        <button class="btn btn-outline-dark" type="button"><i class="bi-trash me-1"></i>Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Order summary-->
+            <div class="col-12 col-lg-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body p-4">
+                        <h5 class="fw-bolder mb-4">Order summary</h5>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Subtotal</span>
+                            <span>$108.00</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Shipping</span>
+                            <span>$5.00</span>
+                        </div>
+                        <hr />
+                        <div class="d-flex justify-content-between fw-bolder mb-4">
+                            <span>Total</span>
+                            <span>$113.00</span>
+                        </div>
+                        <!-- Total in other currencies (example values, the external API will fill this in later)-->
+                        <div class="bg-light rounded p-3 mb-4 small" id="cart-other-currencies">
+                            <div class="fw-bolder mb-2">Total in other currencies (BAM, EUR)</div>
+                            <div class="d-flex justify-content-between">
+                                <span>BAM</span>
+                                <span>203.33 KM</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>EUR</span>
+                                <span>&euro;103.96</span>
+                            </div>
+                            <div class="text-muted mt-2">Example values</div>
+                        </div>
+                    </div>
+                    <!-- Checkout-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="d-grid"><button class="btn btn-outline-dark" type="button">Checkout</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
